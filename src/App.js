@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import ContactUs from "./components/pages/ContactUs";
-import SignUp from "./components/pages/SignUp";
+import MyMds from "./components/pages/MyMds";
 import Marketing from "./components/pages/Marketing";
 import Consulting from "./components/pages/Consulting";
 // import FullScreenImage from "./Hero Section/FullScreenImage";
@@ -24,7 +24,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/products" element={<Products />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/my_mds" element={<MyMds />} />
         <Route path="/marketing" element={<Marketing />} />
         <Route path="/consulting" element={<Consulting />} />
       </Routes>

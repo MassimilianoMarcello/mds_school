@@ -1,5 +1,6 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: #fff
+     ;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,22 +9,23 @@
  }
   
   .navbar-logo {
-    color: #fff;
+   
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 0px;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
+  
+ 
   }
   
   .fa-firstdraft {
     margin-left: 0.5rem;
     font-size: 1.6rem;
+  
   }
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(7, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -39,19 +41,20 @@
   }
   
   .nav-links {
-    color: white;
+    color: #0641a4 ;
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
   
   .nav-links:hover {
-    background-color: #1888ff;
+    color:#f5a800;
     border-radius: 4px;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+   
+    color: #0641a4;
   }
   
   .nav-links-mobile {
@@ -63,7 +66,7 @@
   }
   .nav-border-bottom{
    background-color: #f5a800;
-   padding: .4rem;
+   padding: 1rem;
    width: 100%;
   }
   @media screen and (max-width: 960px) {
@@ -107,7 +110,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 50%);
+      transform: translate(5%, 10%);
     }
   
     .menu-icon {

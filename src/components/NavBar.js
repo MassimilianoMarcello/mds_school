@@ -31,18 +31,18 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          EPIC
-          <i class='fab fa-firstdraft' />
+          <img src="/MDS Color Logo.svg" alt="" />
+          {/* <i class='fab fa-firstdraft' /> */}
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home
             </Link>
-          </li>
+          </li> */}
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
@@ -53,7 +53,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Services <i className='fas fa-caret-down' />
+              Services 
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -77,11 +77,11 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to='/sign-up'
+              to='/my_mds'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
-              Sign Up
+              MyMDS
             </Link>
           </li>
         </ul>
