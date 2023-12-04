@@ -19,11 +19,11 @@
  
   }
   
-  .fa-firstdraft {
+  /* .fa-firstdraft {
     margin-left: 0.5rem;
     font-size: 1.6rem;
   
-  }
+  } */
   
   .nav-menu {
     display: grid;
@@ -75,11 +75,13 @@
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
+     
     }
   
     .nav-menu {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+     grid-template-columns:1fr ;
+     grid-template-rows: repeat(8,auto);
       width: 100%;
       height: 90vh;
       position: absolute;
@@ -91,7 +93,8 @@
   
     .nav-menu.active {
       background: #fff;
-      top: 200px;
+    
+      top: 100px;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -130,14 +133,15 @@
     }
   
     .fa-times {
-      color: #fff;
+    
+      color: #0641a4 ;
       font-size: 2rem;
     }
   
     .nav-links-mobile {
       display: block;
       text-align: center;
-      padding: 1.5rem;
+      padding: .5rem;
       margin: 2rem auto;
       border-radius: 4px;
       width: 80%;
@@ -157,6 +161,8 @@
       display: none;
     }
   }
+
+  
 
 
   
