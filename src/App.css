@@ -5,7 +5,7 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
-.home, .services,.products,.contact-us,.sign-up,.marketing,.consulting{
+.home,.sample-page, .services,.products,.contact-us,.sign-up,.marketing,.consulting{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -17,10 +17,12 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Euclid Circular A', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
   }
   
   .home,
+  .sample-page,
   .services,
   .products,
   .contact-us,
@@ -81,5 +83,10 @@ body{
 
   .border{
     border-bottom: solid 2rem #f5a800;
+  }
+
+  .sample-page{
+    color: black;
+    font-size: 100px;
   }
  

@@ -2,7 +2,7 @@ import React from 'react'
 
 const MyMds = () => {
   return (
-    <div className='consulting'>MyMDS</div>
+    <div className='sample-page'>MyMDS</div>
   )
 }
 

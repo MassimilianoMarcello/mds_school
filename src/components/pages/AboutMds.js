@@ -3,7 +3,7 @@ import '../../App.css';
 
 export default function AboutMds() {
   return <>
-  <h1 className='about-mds'>ABOUT MDS</h1>
+  <h1 className='sample-page'>ABOUT MDS</h1>
   
   </>
 }

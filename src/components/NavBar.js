@@ -49,7 +49,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/about_mds'
+              to='#'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -59,22 +59,47 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/admissions'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
+              ADMISSIONS
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/in_the_classroom'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
-            </Link>
+              IN THE
+CLASSROOM            </Link>
           </li>
+          <li className='nav-item'>
+            <Link
+              to='/parent_resources'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              PARENT RESOURCES          </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/community_resources'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              COMMUNITY RESOURCES          </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/supporting_mds'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              SUPPORTING MDS         </Link>
+          </li>
+
           <li>
             <Link
               to='/my_mds'

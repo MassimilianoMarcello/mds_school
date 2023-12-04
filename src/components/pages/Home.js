@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../App.css';
 
 export default function Consulting() {
   return (
     <>
-      <h1 className='home'>Home</h1>
+      <h1 className='sample-page'>Home</h1>
     </>
   );
 }
