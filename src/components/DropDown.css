@@ -18,7 +18,7 @@
 } */
 
 .dropdown-menu.clicked {
-  display: none;
+  display: none ;
 }
 
 .dropdown-link {
@@ -28,6 +28,7 @@
   text-decoration: none;
   color: #277fdd;
   padding: 16px;
+  
 }
 .dropdown-link:hover{
 color: goldenrod;
@@ -35,6 +36,9 @@ color: goldenrod;
 
 @media screen and (max-width: 960px) {
   .fa-caret-down {
+    display: none ;
+  }
+  .dropdown-link{
     display: none;
   }
 }

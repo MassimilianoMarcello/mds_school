@@ -1,0 +1,16 @@
+ .mob-container{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+} 
+
+ 
+
+
+
+/* @media screen and (min-width: 960px) {
+.mob-container{
+    display: none;
+}
+
+} */
